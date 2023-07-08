@@ -25,7 +25,7 @@ const road = {
     rH: road_height,
 
     draw: function(){ 
-        canvasCtx.fillStyle = "#000"
+        canvasCtx.fillStyle = "#949393"
         canvasCtx.fillRect (
             -10000, this.pD, 1000000000, this.rH
         )
